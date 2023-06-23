@@ -97,7 +97,7 @@ nav ul {
 .hero {
   min-height: 90vh;
   background: linear-gradient(rgba(0, 0, 0, 0.3), transparent),
-    url(/img/landing-page.jpg);
+    url(../img/landing-page.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -117,9 +117,9 @@ nav ul {
 
 #locations {
   min-height: 100vh;
-  background: url("./img/new-york-page.png");
+  background: url("../img/new-york-page.png");
   background: linear-gradient(rgba(0, 0, 0, 0.3), transparent),
-    url("./img/new-york-page.png");
+    url("../img/new-york-page.png");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -229,9 +229,7 @@ nav ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
-
 
 .form-wrapper {
   background: rgba(19, 28, 39, 0.8);
@@ -243,7 +241,6 @@ nav ul {
 .form-head {
   text-align: center;
   padding: 4rem;
-  
 }
 .name-form,
 .email-form {
